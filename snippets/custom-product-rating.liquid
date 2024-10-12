@@ -1,0 +1,24 @@
+{%- style -%}
+  .rating-inner-container {
+    margin-left: 8px;
+    padding-top: 2px;
+  }
+{%- endstyle -%}
+
+<!-- Tydal Reviews Stars Begin -->
+<div {{ block.shopify_attributes }} style="margin-block: -0.8rem;">
+  {% if product.metafields.ba_rev.review_data.reviews_count > 0 %}
+    <div
+      class="tydal-reviews-star-rating"
+      data-product-id="{{ product.id }}"
+      data-rating="{{ product.metafields.ba_rev.review_data.stars }}"
+      data-count="{{ product.metafields.ba_rev.review_data.reviews_count }}"
+    >
+      <div class="rating-inner-container">
+        {{ product.metafields.ba_rev.review_data.stars }} Ratings based on
+        {{ product.metafields.ba_rev.review_data.reviews_count }} Reviews
+      </div>
+    </div>
+  {% endif %}
+</div>
+<!-- Tydal Reviews Stars End -->

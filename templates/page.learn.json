@@ -1,0 +1,239 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_HEF4TH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_BW7By9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Whip Up More Than Just a Meal",
+            "heading_size": "h1"
+          }
+        },
+        "text_VGPth7": {
+          "type": "text",
+          "settings": {
+            "text": "Discover incredible recipes, master essential techniques, and unlock the joy of homemade food with our library of books and courses.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_yPELhQ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BW7By9",
+        "text_VGPth7",
+        "buttons_yPELhQ"
+      ],
+      "custom_css": [
+        "{margin-top: -50px;}",
+        ".banner__buttons {display: inline-block !important;}",
+        ".banner__buttons a.button {max-width: 400px;}",
+        "h2.banner__heading.inline-richtext.h0 {font-size: calc(var(--font-heading-scale) * 6.2rem);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hands-cradle-fresh-sourdough-bread.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_X3EKLY": {
+      "type": "multirow",
+      "blocks": {
+        "row_rXTqeX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gluten-Free_Baking_Cookbook_bffc3627-0acf-4538-a1de-94b520983bf3.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>The Ultimate Guide To Gluten Free Baking<\/strong>",
+            "text": "<p>Indulge in the divine pleasure of baked delights without the gluten guilt! Our 'Gluten-Free Baking Cookbook' is your golden ticket to a world where flavor and health dance in harmony. Every page is a journey through rich, sumptuous recipes that promise to delight your taste buds and nurture your body. Whether you're battling gluten sensitivities or simply seeking a healthier lifestyle, this cookbook is your trusted ally. With each recipe meticulously crafted and tested, you're not just baking; you're crafting moments of joy, one gluten-free treat at a time. Embrace the art of baking without boundaries.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/gluten-free-baking-cookbook",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_xwCJeH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mockup_1.png",
+            "caption": "Cookbook",
+            "heading": "<strong>HomeMade Gluten-Free Sourdough<\/strong>",
+            "text": "<p>Discover the rustic charm of sourdough, reimagined for the gluten-free gourmet. Our 'Gluten-Free Sourdough Cookbook' is a masterpiece of culinary innovation, offering you the keys to unlocking the rich, tangy flavors of sourdough, without a speck of gluten in sight. Dive into a collection of recipes where tradition meets modern health, transforming your kitchen into a haven of wholesome indulgence. From crusty breads to fluffy loaves, your sourdough journey is about to become gloriously gluten-free.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/gluten-free-sourdough-cookbook",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_NRX6qK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Keto-Sourdough_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Keto & Low Carb Sourdough <\/strong>",
+            "text": "<p>Welcome to a world where the timeless tradition of sourdough meets the revolutionary wellness of keto. The 'Keto-Sourdough Cookbook' is your ultimate guide to marrying indulgent, sourdough flavors with the health-forward, carb-conscious keto lifestyle. They said it couldn’t be done, but we did it!! And so will you!<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/keto-sourdough-cookbook",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_dJxNdQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yogurt_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Homemade Yogurt<\/strong>",
+            "text": "<p>This book is your treasure trove of easy-to-follow recipes, offering over 1000+ combinations to transform everyday meals into mouthwatering delights. Discover how a dollop of yogurt can add a creamy twist to your soups, a tangy zest to your marinades, and a heavenly touch to your desserts. Yogurt isn't just another ingredient; it's your secret weapon for making dishes that dazzle the taste buds while keeping health in check. With this cookbook, you're not just cooking; you're creating magic in your kitchen, one spoonful of yogurt at a time. Get ready to stir, mix, and swirl your way to scrumptious meals that everyone will love!<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/products\/copy-of-homemade-natural-yogurt-cookbook-printed-copy",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_L3TG3t": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fermentation_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Fermentation Cookbook<\/strong>",
+            "text": "<p>If you thought Fermentation was just for saving food from spoiling, oh how wrong you are my friend... It's about mastering the process, taking charge, and turning ordinary foods into extraordinary health powerhouses. Dive into 30+ gut-boosting recipes. Every bite is a chance to heal your body more than you could ever imagine!<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/products\/fermentation-cookbook",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_BcrQwa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gluten_Free_Artisanal_Bread_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Gluten Free Artisanal Bread Cookbook<\/strong>",
+            "text": "<p>Step into a world where gluten-free baking meets artisanal craftsmanship, and discover the sheer joy of creating bakery-quality breads right in your own kitchen. What's Inside: Dive into a collection where each recipe is a masterpiece, crafted with the gluten-free baker in mind. From airy focaccias adorned with rosemary and sea salt, to robust sandwich loaves that hold together your heartiest creations... From buttery, flaky croissants that melt in your mouth, to sweet breads that fill your home with the scents of cinnamon and vanilla. PLUS, our brioche will leave you speechless, with its golden crust and tender crumb.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/products\/gluten-free-artisanal-bread-cookbook",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_gzc4y4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gluten_Free_Pizza_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Gluten Free Pizza Cookbook<\/strong>",
+            "text": "<p>Dive into a gluten-free pizza paradise where flavor knows no bounds! From the classic, cheesy embrace of a Margherita to the bold, colorful zest of a veggie hummus pizza, our cookbook is your golden ticket to mastering gluten-free wonders. Crispy thin crusts, hearty Chicago styles—every recipe is a love letter to pizza aficionados and gluten-free adventurers alike. Crafted to astonish, this guide ensures you never miss out on the joy of pizza.<br\/><\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/products\/gluten-free-pizza-cookbook",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_EmUjEk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kombucha_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Kombucha Cookbook<\/strong>",
+            "text": "<p>Embark on a fizzy adventure with our 'Kombucha Cookbook,' the ultimate guide to the art of kombucha brewing! Packed with innovative recipes, this book is perfect for both beginners and seasoned brewers. Learn the secrets to crafting the perfect batch, explore a variety of flavor infusions, and discover kombucha's health benefits. From refreshing beverages to creative culinary uses, our cookbook turns every sip into an exploration of flavor and wellness.<br\/><\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/cart\/add?id=48237066223903&quantity=1",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_JwMaGX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Milk-Kefir_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Milk-Kefir Cookbook<\/strong>",
+            "text": "<p>Discover the wonders of milk kefir with our \"Ultimate Guide to Milk Kefir'' cookbook, your go-to resource for mastering this nutritious and versatile ferment. Packed with expert tips, this guide unveils the secrets of both dairy and non-dairy kefir, guiding you through the process of making and maintaining kefir cultures. Elevate your health with recipes that not only tantalize your taste buds but also boost gut health and overall well-being. From beginners to kefir aficionados, this cookbook is an essential addition to your culinary library, offering insights into kefir's uses in skin and hair care, troubleshooting advice, and more. Transform your meals and wellness routine with the magic of milk kefir!<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/cart\/add?id=48237342228767&quantity=1",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_VzzLV3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Homemade_Nut-Based_Milk_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Homemade Nut-Based Milk Cookbook<\/strong>",
+            "text": "<p>Your ultimate guide to crafting delicious, nutritious, and utterly irresistible nut-based beverages right from the comfort of your kitchen. Whether you're a dairy-free devotee or just nutty about nuts, this cookbook is packed with simple, step-by-step recipes that transform everyday nuts into creamy delights. Almond, cashew, hazelnut, or something more adventurous – we've got all your cravings covered.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/cart\/add?id=48237201162527&quantity=1",
+            "cpk": "#94be9b"
+          }
+        },
+        "row_FjMYeg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Water-Kefir_Cookbook.jpg",
+            "caption": "Cookbook",
+            "heading": "<strong>Water-Kefir Cookbook<\/strong>",
+            "text": "<p>Welcome to the effervescent world of Water-Kefir! From Mocktails to Cocktails and Probiotic Drinks, this is your sparkling ticket to mastering this fermented wonder. Packed with recipes that range from the refreshing zest of morning mocktails to the spirited buzz of evening cocktails, this cookbook is a treasure trove for health enthusiasts and party lovers alike. Dive into the ultimate guide to Water-Kefir and unlock the secrets to gut-friendly, bubbly beverages that promise to keep you and your guests coming back for more.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.bloomhealthy.com\/cart\/add?id=48234417815839&quantity=1",
+            "cpk": "#94be9b"
+          }
+        }
+      },
+      "block_order": [
+        "row_rXTqeX",
+        "row_xwCJeH",
+        "row_NRX6qK",
+        "row_dJxNdQ",
+        "row_L3TG3t",
+        "row_BcrQwa",
+        "row_gzc4y4",
+        "row_EmUjEk",
+        "row_JwMaGX",
+        "row_VzzLV3",
+        "row_FjMYeg"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_HEF4TH",
+    "multirow_X3EKLY"
+  ]
+}

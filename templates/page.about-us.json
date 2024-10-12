@@ -1,0 +1,184 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_8j9Mfj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_UttzbA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Bloom Healthy",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UttzbA"
+      ],
+      "custom_css": [
+        "{margin-top: -50px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/amoon-ra-oWN1tKuUpJI-unsplash.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_U4EAiY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xa7aCx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Where our passion for health and wellness is at the heart of everything we do. We founded this company with a simple mission: to make healthy cooking accessible, enjoyable, and incredibly flavorful.<br\/><br\/>At Bloom Healthy, we offer a unique blend of products and learning experiences designed to inspire and empower you in your culinary journey. Our online courses, carefully curated cookbooks, and specially designed kits are more than just products—they're your companions on a path to healthier eating and living.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xa7aCx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_gLXAPf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hkiVxc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Online Courses",
+            "heading_size": "h1"
+          }
+        },
+        "text_AdheLy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe that everyone can learn to cook healthily, regardless of their previous experience. That's why our online courses cover a wide range of topics, from basic nutrition to the art of fermenting foods. These courses are crafted to be engaging and informative, ensuring that you walk away with practical skills and a deeper understanding of what it means to eat well.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hkiVxc",
+        "text_AdheLy"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_xDjQKr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MqxBQc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Cookbooks",
+            "heading_size": "h1"
+          }
+        },
+        "text_cFWptF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team has poured its hearts into creating cookbooks that are more than just collections of recipes. They're guides to transforming your diet and enriching your life with nutritious, delicious meals. Each recipe is a celebration of natural ingredients and showcases the incredible flavors that come from cooking in harmony with nature.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MqxBQc",
+        "text_cFWptF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_d07061af-7e34-4af7-98e8-fde046d858a4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_QUCNqd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BynY3Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Kits",
+            "heading_size": "h1"
+          }
+        },
+        "text_y3dhna": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To help you kick-start your healthy cooking journey, we've put together kits that contain everything you need to begin. Whether it's fermenting your first batch of kimchi or preparing a wholesome sourdough bread, our kits demystify the process and make it fun and easy.<\/p><p>At Bloom Healthy, we're committed to sustainability, health, and the joy of cooking. Join us in this delicious adventure, and let's cook our way to a healthier life together!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BynY3Y",
+        "text_y3dhna"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_8j9Mfj",
+    "rich_text_U4EAiY",
+    "image_with_text_gLXAPf",
+    "image_with_text_xDjQKr",
+    "image_with_text_QUCNqd"
+  ]
+}

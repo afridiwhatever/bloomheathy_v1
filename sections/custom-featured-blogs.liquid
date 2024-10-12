@@ -1,0 +1,73 @@
+<div class="cust_blog blog_for_mobile cstblkogs">
+  <div class="page-width">
+    <div class="row">
+      <header class="section-header bloghdr">
+        <h2>{{ section.settings.heading }}</h2>
+        <p>Give your customers a summary of your</p>
+      </header>
+      <div class="section--dividercst"></div>
+    </div>
+    <div class="row">
+      <div class="blog_for_mobile_slider owl-carousel">
+        {%- assign blogqq = blogs[section.settings.blogqq] -%}
+        {%- for article in blogqq.articles limit: 90 -%}
+          <div class="col-sm-4 item">
+            <div class="blog_in">
+              <img class="lazyload" src="{{ article | img_url: ' ' }}">
+              <div class="blog_inInner">
+                <a href="#" class="Cstfhg">
+                  <h3 class="article__title csth3">{{ article.title | truncate: 90 }}</h3>
+                  <p class="featured-post-excerpt">
+                    {{ article.excerpt_or_content | strip_html }}
+                  </p>
+                </a>
+                <a href="{{ article.url }}" class="article__titlelink">Read More</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="blogbtnmore">
+      <a class="" href="{{ section.settings.vabu }}"> {{ section.settings.vtb }} </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+ {
+    "name": "Home Blog Section",
+    "class": "home-blog",
+
+    "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Main Heading"
+    },
+{
+      "type": "text",
+      "id": "vtb",
+      "label": "Visit the blog"
+    },
+{
+      "type": "url",
+      "id": "vabu",
+      "label": "View All blog url"
+    },
+{
+        "id": "blogqq",
+        "type": "blog",
+        "label": "Blog"
+      }
+],
+ "presets":[
+      {
+         "name":"Home Blog Section",
+         "category":"text"
+
+      }
+   ]
+
+  }
+{% endschema %}

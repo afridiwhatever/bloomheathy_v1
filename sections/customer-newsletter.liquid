@@ -1,0 +1,103 @@
+<div class="cst30ppsp">
+  <div class="csxst2sp5">
+    <img src="https://cdn.shopify.com/s/files/1/0766/3448/9119/files/leaves-03_1.jpg?v=1699083096">
+  </div>
+
+  <div class="csxst2sp5">
+    <div class="csxst2sp5hdr">
+      <h3>Sign up for newsletter + get free guide</h3>
+      <p>Get access to easy recipes and experience the pleasure of <b>home-made cookies</b>, <b>cakes</b>, <b>bread</b> and <b>snacks</b></p>
+    </div>
+    <div class="csxsFormdr">
+      <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<form
+    action="https://app.convertkit.com/forms/6045087/subscriptions"
+    class="seva-form formkit-form"
+    method="post"
+    data-sv-form="6045087"
+    data-uid="539a14e5e2"
+    data-format="inline"
+    data-version="5"
+    data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
+    min-width="400 500 600 700 800"
+>
+    <div data-style="clean">
+        <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+        <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+            <div class="formkit-field">
+                <label for="fields[first_name]">First Name</label><br>
+                <input 
+                  class="formkit-input" 
+                  aria-label="First Name" 
+                  name="fields[first_name]" 
+                  placeholder="First Name" 
+                  type="text" 
+                  style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400;" 
+                />
+            </div>
+            <br>
+            <div class="formkit-field">
+                <label for="email_address">Email<span>*</span></label><br>
+                <input
+                    class="formkit-input"
+                    name="email_address"
+                    aria-label="Email Address"
+                    placeholder="Email Address"
+                    required=""
+                    type="email"
+                    style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400;"
+                />
+            </div>
+            <br>
+            <button data-element="submit" class="formkit-submit formkit-submit" style="border-radius: 1000px;border: 1px solid #eaeaea;background: #dbc282;color: #fff;font-size: 22px;font-weight: 600;width: 100%;padding: 15px;cursor: pointer;">
+                <div class="formkit-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <span class="">Subscribe</span>
+            </button>
+        </div>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+ {
+    "name": "Home newsletter",
+    "class": "homenewsletter",
+
+    "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Main Heading"
+    },
+{
+      "type": "text",
+      "id": "vtb",
+      "label": "Visit the blog"
+    },
+{
+      "type": "url",
+      "id": "vabu",
+      "label": "View All blog url"
+    },
+{
+        "id": "blogqq",
+        "type": "blog",
+        "label": "Blog"
+      }
+],
+ "presets":[
+      {
+         "name":"Home newsletter",
+         "category":"text"
+
+      }
+   ]
+
+  }
+{% endschema %}

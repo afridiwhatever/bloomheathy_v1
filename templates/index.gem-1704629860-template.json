@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Up to 60% off\n<br>Healthy Cooking Kits",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "#",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/pexels-monserrat-soldu-5313293.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-40344e02-dd9e-4af5-9ee0-8829a743114c",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "e2a7e4ba-b514-4919-9a2d-cc0ef52159cd": {
+      "type": "multirow",
+      "blocks": {
+        "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/freshly-baked-bread-in-hands.jpg",
+            "caption": "",
+            "heading": "Sourdough Baking Kits",
+            "text": "<p>These are your shortcuts to baking sourdough with control – So your bread is instantly beautiful. Stunning to look at. Delightful to smell. With all of the true taste and texture. The beautiful flavors of sourdough – exactly how it should feel.<\/p>",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/sourdough-kits",
+            "cpk": "#e4ae82"
+          }
+        },
+        "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-tiberiu-5764588.jpg",
+            "caption": "",
+            "heading": "Yogurt Making Kits",
+            "text": "<p>This Genius Device Gives You An Unlimited Variety Of Delicious <strong>Dairy-Free Yogurts<\/strong> – And A Wealth Of New Healthy Dishes!!<\/p>",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/yogurt-kit",
+            "cpk": "#dbc282"
+          }
+        },
+        "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_16.jpg",
+            "caption": "",
+            "heading": "Kombucha And Kefir Brewing Kits",
+            "text": "<p>Elevate Your Wellness Journey with Our Innovative Kits – Unleash a Symphony of Flavor with DIY Kombucha and Kefir Brewing. Craft Your Own Probiotic Powerhouses and Discover a World of Gut-Healthy Delights! 🌿✨<\/p>",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/kombucha-starter-kit",
+            "cpk": "#db8282"
+          }
+        }
+      },
+      "block_order": [
+        "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-1",
+        "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-2",
+        "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-3"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Best Seller",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 100
+      }
+    },
+    "32648cc4-8f31-4523-ad2e-8a9db702f55b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21392485974303__32648cc4-8f31-4523-ad2e-8a9db702f55b-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Depositphotos_369490932_L.jpg",
+            "heading": "\"I had come across bloom healthy cooking on instagram and I was so happy I could make alternatives and still enjoy it, it had so many different courses and I just wanted to know it all, it has helped me so much.\"",
+            "heading_size": "h2",
+            "subheading": "<strong>– Anna Bradley<\/strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "9f3b5e22-a2f4-497d-822f-b8c9994670df": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11-25.webp",
+            "heading": "“Honestly, this guide is the best! My sister and I have been experimenting with every recipe, and each pizza feels like a masterpiece. Kudos to the creators!”",
+            "heading_size": "h2",
+            "subheading": "<strong>– Emily Rummings<\/strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "15d62f2b-d6f2-4dcd-a901-4cbbcd892a9d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_16.jpg",
+            "heading": "“Huge thanks!\nAfter I started with your fermentation-focused eating plan, everything fell into place. My energy levels have soared, and my sleepless nights are gone. I'm stress-free, happier, and lighter—both on the scale and in spirit. This has been a total game-changer for my life.”",
+            "heading_size": "h2",
+            "subheading": "<strong>– Anna Bradley<\/strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "35a0faa5-0770-4081-b3b7-705ad4b51b7a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soft-Mozzarella-1-copy.jpg",
+            "heading": "“Brilliant!! - These cheeses taste so realistic! My other half has been a vegan for over 20 years and when I gave him my first creation from this book he thought I had given him some dairy cheese accidentally!”",
+            "heading_size": "h2",
+            "subheading": "<strong>– Lisa<\/strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "3d6d70e9-05f4-40f1-8e24-270d09820305": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Depositphotos_11932441_XL.jpg",
+            "heading": "\"This is so worth it. Perfect yogurt every time. I lead a busy life and thought I might not like having to go through the process of heating and cooling the milk, but it's quick and easy. And my children and husband love the results. Winner\"",
+            "heading_size": "h2",
+            "subheading": "<strong>– Lara<\/strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21392485974303__32648cc4-8f31-4523-ad2e-8a9db702f55b-slide-2",
+        "9f3b5e22-a2f4-497d-822f-b8c9994670df",
+        "15d62f2b-d6f2-4dcd-a901-4cbbcd892a9d",
+        "35a0faa5-0770-4081-b3b7-705ad4b51b7a",
+        "3d6d70e9-05f4-40f1-8e24-270d09820305"
+      ],
+      "custom_css": [
+        "{margin-bottom: 90px;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "78246ebf-e0d7-4b7b-8b51-af06b4f52907": {
+      "type": "customer-newsletter",
+      "settings": {
+        "heading": "",
+        "vtb": "",
+        "vabu": "",
+        "blogqq": ""
+      }
+    },
+    "d7888ff2-80d3-4b58-b210-2a1a129ef617": {
+      "type": "footer-above",
+      "settings": {
+        "heading": "",
+        "vtb": "",
+        "vabu": "",
+        "blogqq": ""
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "e2a7e4ba-b514-4919-9a2d-cc0ef52159cd",
+    "featured_collection",
+    "32648cc4-8f31-4523-ad2e-8a9db702f55b",
+    "78246ebf-e0d7-4b7b-8b51-af06b4f52907",
+    "d7888ff2-80d3-4b58-b210-2a1a129ef617"
+  ]
+}

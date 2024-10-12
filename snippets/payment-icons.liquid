@@ -1,0 +1,50 @@
+{%- style -%}
+  .payment-icons {
+    padding-right: 5%;
+    max-width: 100%;
+  }
+  
+  .list.list-payment {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    padding-inline-start: 0px; 
+  }
+
+  .list-payment__item {
+    list-style: none;
+    flex-shrink: 1;
+    min-width: 0;
+    padding: 0 5px;
+  }
+  
+  .list-payment__item img {
+    width: 100%;
+    height: auto;
+  }
+    
+  @media screen and (min-width: 990px) {
+    .payment-icons {
+      padding-right: 20%
+    }
+    .list.list-payment {
+      padding-inline-start: 4%; 
+    }
+  }
+
+  
+{%- endstyle -%}
+
+
+<div {{ block.shopify_attributes }} class="payment-icons">
+  <p style="text-align: center;">{{ block.settings.payment_icon_text }}</p>
+  <ul class="list list-payment">
+    {%- for type in shop.enabled_payment_types -%}
+        <li class="list-payment__item">
+          {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+        </li>
+    {%- endfor -%}
+  </ul>
+</div>

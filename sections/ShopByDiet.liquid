@@ -1,0 +1,87 @@
+<div class="cust_sbd">
+  <div class="page-width">
+    <header class="section-header bloghdr">
+      <h2>Shop By Diet</h2>
+    </header>
+
+    <div class="colitemsbd">
+      <div class="sbd_in">
+        <img
+          class="lazyload"
+          src="https://cdn.shopify.com/s/files/1/0766/3448/9119/files/Screenshot_2022-02-01_at_12.56_2_1.jpg?v=1699321486"
+        >
+        <div class="sbd_inInner">
+          <h3 class="sbdsth3">Dairy Free</h3>
+          <p class="fesbd">12 products</p>
+          <a href="#" class="arvk">View all</a>
+        </div>
+      </div>
+
+      <div class="sbd_in">
+        <img
+          class="lazyload"
+          src="https://cdn.shopify.com/s/files/1/0766/3448/9119/files/Screenshot_2022-02-01_at_12.56_2_1.jpg?v=1699321486"
+        >
+        <div class="sbd_inInner">
+          <h3 class="sbdsth3">Dairy Free</h3>
+          <p class="fesbd">12 products</p>
+          <a href="#" class="arvk">View all</a>
+        </div>
+      </div>
+
+      <div class="sbd_in">
+        <img
+          class="lazyload"
+          src="https://cdn.shopify.com/s/files/1/0766/3448/9119/files/Screenshot_2022-02-01_at_12.56_2_1.jpg?v=1699321486"
+        >
+        <div class="sbd_inInner">
+          <h3 class="sbdsth3">Dairy Free</h3>
+          <p class="fesbd">12 products</p>
+          <a href="#" class="arvk">View all</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sdmore">
+      <a class="" href="{{ section.settings.vabu }}"> {{ section.settings.vtb }} </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+ {
+    "name": "Home ShopByDiet Section",
+    "class": "home-Home ShopByDiet Section",
+
+    "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Main Heading"
+    },
+{
+      "type": "text",
+      "id": "vtb",
+      "label": "Visit the blog"
+    },
+{
+      "type": "url",
+      "id": "vabu",
+      "label": "View All blog url"
+    },
+{
+        "id": "blogqq",
+        "type": "blog",
+        "label": "Blog"
+      }
+],
+ "presets":[
+      {
+         "name":"Home ShopByDiet Section",
+         "category":"text"
+
+      }
+   ]
+
+  }
+{% endschema %}
