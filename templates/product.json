@@ -8,13 +8,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
+        "custom_product_rating_zphiib": {
+          "type": "custom_product_rating",
           "settings": {
           }
         },
-        "custom_product_rating_zphiib": {
-          "type": "custom_product_rating",
+        "title": {
+          "type": "title",
           "settings": {
           }
         },
@@ -54,8 +54,8 @@
         }
       },
       "block_order": [
-        "title",
         "custom_product_rating_zphiib",
+        "title",
         "price",
         "variant_picker",
         "quantity_selector",
