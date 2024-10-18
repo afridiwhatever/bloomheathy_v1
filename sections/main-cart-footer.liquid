@@ -15,6 +15,9 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .totals__total-value{
+    color: black;
+  }
 {%- endstyle -%}
 
 <div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
@@ -89,7 +92,7 @@
                   {% endif %}
                   form="cart"
                 >
-                  {{ 'sections.cart.checkout' | t }}
+                  Proceed to Secure Checkout
                 </button>
               </div>
 
