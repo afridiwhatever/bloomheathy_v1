@@ -18,6 +18,33 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .title-wrapper-with-link {
+    display: block;
+  }
+  
+  .custom-cart-container {
+    position: relative;
+  }
+
+  .custom-cart-contact {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #F2F2F2;
+  }
+
+  .contact-number {
+    border-radius: 15px;
+    padding: 0 1.5rem;
+    background: #F2F2F2;
+    text-decoration: none; 
+    color: inherit;
+  }
 {%- endstyle -%}
 
 {%- unless settings.cart_type == 'drawer' -%}
@@ -27,10 +54,17 @@
 <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
-  <div class="title-wrapper-with-link">
-    <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
-    <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
+  <div class="custom-cart-container">
+    <div class="title-wrapper-with-link">
+      <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+      <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
+    </div>
+    <div class="custom-cart-contact">
+      <span>Have a question? <a href="/pages/contact">Contact us!</a></span> 
+      <div>Or Call: <a class="contact-number" href="tel:+1234567890">+1 (234) 567-890</a> </div> 
+    </div>
   </div>
+
 
   <div class="cart__warnings">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
@@ -182,7 +216,6 @@
                           <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                         </svg>
                       </div>
-
                     </div>
                     <div class="cart-item__price-wrapper">
                       {%- if item.original_line_price != item.final_line_price -%}
@@ -206,9 +239,6 @@
                         <span class="price price--end">
                           {{ item.original_line_price | money }}
                         </span>
-                        <div>
-                     
-                      </div>
                       {%- endif -%}
 
                       {%- if item.variant.available and item.unit_price_measurement -%}
@@ -291,7 +321,7 @@
                           id="Remove-{{ item.index | plus: 1 }}"
                           data-index="{{ item.index | plus: 1 }}"
                         >
-                        {% comment %} The following "style="color: unset" is to counter the color=white cooming from the 'button' class defined in custom.css file {% endcomment %}
+                          {% comment %} The following "style="color: unset" is to counter the color=white coming from the 'button' class defined in custom.css file {% endcomment %}
                           <a
                             href="{{ item.url_to_remove }}"
                             class="button button--tertiary"

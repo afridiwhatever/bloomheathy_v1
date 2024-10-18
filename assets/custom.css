@@ -186,9 +186,12 @@ h2.title.inline-richtext.h2 {
   max-width: 100%;
   width: auto;
 }
-.title-wrapper-with-link {
-  text-align: center;
-  display: block;
+
+@media screen and (min-width: 750px) {
+  .title-wrapper-with-link {
+    text-align: center;
+    display: block;
+  }
 }
 
 /********************/
@@ -731,7 +734,8 @@ div#Banner-template--21966262927647__image_banner_HEF4TH .banner__buttons {
   animation: down 1.5s infinite;
   -webkit-animation: down 1.5s infinite;
 }
-div#Banner-template--21966262927647__image_banner_HEF4TH .banner__buttons:before {
+div#Banner-template--21966262927647__image_banner_HEF4TH
+  .banner__buttons:before {
   content: "";
   position: absolute;
   top: 15px;
