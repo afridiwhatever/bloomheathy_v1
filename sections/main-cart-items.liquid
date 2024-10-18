@@ -61,7 +61,9 @@
     </div>
     <div class="custom-cart-contact">
       <span>Have a question? <a href="/pages/contact">Contact us!</a></span> 
-      <div>Or Call: <a class="contact-number" href="tel:+1234567890">+1 (234) 567-890</a> </div> 
+      {%- if section.settings.contact_number != blank -%}
+        <div>Or Call: <a class="contact-number" href="tel:{{section.settings.contact_number | remove: ' ' | remove: '(' | remove: ')' | remove: '-' }}">{{section.settings.contact_number}}</a> </div> 
+      {%- endif -%}
     </div>
   </div>
 
@@ -509,6 +511,12 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+"type": "text",
+"id": "contact_number",
+"label": "Contact Number",
+"info": "Enter the contact number you want to display (With dashes). The number will be shown exactly as-is"
     },
     {
       "type": "range",
