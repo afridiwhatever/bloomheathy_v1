@@ -29,11 +29,17 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "payment_icons_cart_page_6LzT4L": {
+          "type": "payment_icons_cart_page",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons"
+        "buttons",
+        "payment_icons_cart_page_6LzT4L"
       ],
       "settings": {
         "padding_top": 20,
