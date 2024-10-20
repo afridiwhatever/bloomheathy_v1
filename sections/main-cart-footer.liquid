@@ -42,6 +42,8 @@
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
+            {%- when 'payment_icons_cart_page' -%}
+              {%- render 'payment-icons-cart-page' -%}
             {%- when 'subtotal' -%}
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div>
@@ -171,6 +173,11 @@
     },
     {
       "type": "@app"
+    },
+    {
+      "type": "payment_icons_cart_page",
+      "name": "Payment Icons",
+      "limit": 1
     }
   ]
 }

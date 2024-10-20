@@ -1,0 +1,27 @@
+{%- style -%}
+  .payment-icons {
+    max-width: 36rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+  }
+
+  .payment-icons__item {
+    list-style: none;
+    transform: scale(0.9);
+  }
+
+  .payment-icons__item img {
+    width: 100%;
+    height: auto;
+  }
+{%- endstyle -%}
+
+<div {{ block.shopify_attributes }} class="payment-icons">
+  {%- for type in shop.enabled_payment_types -%}
+    <div class="payment-icons__item">
+      {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+    </div>
+  {%- endfor -%}
+</div>
