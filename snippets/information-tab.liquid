@@ -22,7 +22,7 @@
     border-bottom: 2px solid #ddd;
     list-style-type: none;
     padding: 0;
-    overflow-x: auto; /* Horizontal scrolling for mobile if needed */
+    overflow-x: hidden;
   }
 
   .tabs .tab-link {
@@ -78,7 +78,7 @@
 
 <div {{ block.shopify_attributes }} class="tabs-container">
   <ul class="tabs">
-    {% comment %} <li class="tab-link " data-tab="description">Description</li> {% endcomment %}
+    {% comment %} <li class="tab-link active" data-tab="description">Description</li> {% endcomment %}
     <li class="tab-link active" data-tab="features">Whats Included</li>
     <li class="tab-link" data-tab="specs">Supplies Needed</li>
     <li class="tab-link" data-tab="shipping-returns">Shipping & Returns</li>
@@ -95,7 +95,7 @@
     </div>
   {% endcomment %}
 
-  <div id="features" class="tab-content">
+  <div id="features" class="tab-content active">
     <p>Whats included content goes here.</p>
   </div>
 
