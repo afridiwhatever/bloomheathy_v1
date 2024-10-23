@@ -51,6 +51,11 @@
           "type": "description",
           "settings": {
           }
+        },
+        "information_tab_q8VQKK": {
+          "type": "information_tab",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -61,7 +66,8 @@
         "quantity_selector",
         "buy_buttons",
         "payment_icons_q8BLPA",
-        "description"
+        "description",
+        "information_tab_q8VQKK"
       ],
       "settings": {
         "enable_sticky_info": true,

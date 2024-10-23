@@ -1,0 +1,128 @@
+{% style %}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  .tabs-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    list-style-type: none;
+    padding: 0;
+    overflow-x: auto; /* Horizontal scrolling for mobile if needed */
+  }
+
+  .tabs .tab-link {
+    flex-grow: 1; /* Equal width for each tab */
+    text-align: center; /* Center text in each tab */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    white-space: nowrap; /* Prevents breaking into multiple lines */
+  }
+
+  .tabs .tab-link.active {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+  }
+
+  .tab-content {
+    display: none;
+    padding: 20px 0;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+  .tab-content p {
+    line-height: 1.6;
+  }
+
+  /* Mobile-first design */
+  @media screen and (max-width: 768px) {
+    .tabs-container {
+      width: 100%;
+    }
+
+    .tabs {
+      flex-direction: row;
+      overflow-x: auto; /* Horizontal scroll for smaller screens */
+    }
+
+    .tabs .tab-link {
+      flex-grow: 1;
+      padding: 10px 5px; /* Reduce padding on smaller screens */
+      font-size: 14px; /* Smaller font size on mobile */
+    }
+
+    .tab-content {
+      padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+  }
+{% endstyle %}
+
+<div {{ block.shopify_attributes }} class="tabs-container">
+  <ul class="tabs">
+    <li class="tab-link active" data-tab="description">Description</li>
+    <li class="tab-link" data-tab="features">Features</li>
+    <li class="tab-link" data-tab="specs">Specs</li>
+    <li class="tab-link" data-tab="shipping-returns">Shipping & Returns</li>
+  </ul>
+
+  <div id="description" class="tab-content active">
+    <p>
+      The ANDI Backpack is designed to solve the typical backpack challenges: easy access to your necessities and a look
+      sophisticated enough to keep up with your work style. It also boasts interior and exterior organization, a trolley
+      strap (because you’ve got places to go!), separate and padded laptop compartment, expandable design and a sleek
+      detachable wristlet.
+    </p>
+  </div>
+
+  <div id="features" class="tab-content">
+    <p>Features content goes here.</p>
+  </div>
+
+  <div id="specs" class="tab-content">
+    <p>Specs content goes here.</p>
+  </div>
+
+  <div id="shipping-returns" class="tab-content">
+    <p>Shipping & Returns content goes here.</p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabLinks = document.querySelectorAll('.tab-link');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabLinks.forEach(function (tabLink) {
+      tabLink.addEventListener('click', function () {
+        const target = this.getAttribute('data-tab');
+
+        // Remove active class from all tabs
+        tabLinks.forEach((link) => link.classList.remove('active'));
+        tabContents.forEach((content) => content.classList.remove('active'));
+
+        // Add active class to clicked tab and corresponding content
+        this.classList.add('active');
+        document.getElementById(target).classList.add('active');
+      });
+    });
+  });
+</script>
