@@ -78,27 +78,29 @@
 
 <div {{ block.shopify_attributes }} class="tabs-container">
   <ul class="tabs">
-    <li class="tab-link active" data-tab="description">Description</li>
-    <li class="tab-link" data-tab="features">Features</li>
-    <li class="tab-link" data-tab="specs">Specs</li>
+    {% comment %} <li class="tab-link " data-tab="description">Description</li> {% endcomment %}
+    <li class="tab-link active" data-tab="features">Whats Included</li>
+    <li class="tab-link" data-tab="specs">Supplies Needed</li>
     <li class="tab-link" data-tab="shipping-returns">Shipping & Returns</li>
   </ul>
 
-  <div id="description" class="tab-content active">
-    <p>
-      The ANDI Backpack is designed to solve the typical backpack challenges: easy access to your necessities and a look
-      sophisticated enough to keep up with your work style. It also boasts interior and exterior organization, a trolley
-      strap (because you’ve got places to go!), separate and padded laptop compartment, expandable design and a sleek
-      detachable wristlet.
-    </p>
-  </div>
+  {% comment %}
+    <div id="description" class="tab-content active">
+      <p>
+        The ANDI Backpack is designed to solve the typical backpack challenges: easy access to your necessities and a look
+        sophisticated enough to keep up with your work style. It also boasts interior and exterior organization, a trolley
+        strap (because you’ve got places to go!), separate and padded laptop compartment, expandable design and a sleek
+        detachable wristlet.
+      </p>
+    </div>
+  {% endcomment %}
 
   <div id="features" class="tab-content">
-    <p>Features content goes here.</p>
+    <p>Whats included content goes here.</p>
   </div>
 
   <div id="specs" class="tab-content">
-    <p>Specs content goes here.</p>
+    <p>Supplies content goes here.</p>
   </div>
 
   <div id="shipping-returns" class="tab-content">
