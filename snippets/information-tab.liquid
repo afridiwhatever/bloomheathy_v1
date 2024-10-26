@@ -26,12 +26,13 @@
 
   .tabs .tab-link {
     flex-grow: 1; /* Equal width for each tab */
+    flex-shrink: 1;
     text-align: center; /* Center text in each tab */
-    padding: 10px 20px;
+    padding-block: 10px;
     cursor: pointer;
     border-bottom: 2px solid transparent;
     transition: all 0.3s ease;
-    white-space: nowrap; /* Prevents breaking into multiple lines */
+    /* white-space: nowrap;  */
   }
 
   .tabs .tab-link.active {

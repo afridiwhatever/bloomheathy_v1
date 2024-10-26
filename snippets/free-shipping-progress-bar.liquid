@@ -1,0 +1,57 @@
+{% assign free_shipping_threshold = 100000 %}
+
+{% assign cart_total = cart.total_price %}
+
+{% if cart_total < free_shipping_threshold %}
+  {% assign amount_remaining = free_shipping_threshold | minus: cart_total %}
+  {% assign progress_percentage = cart_total | times: 100 | divided_by: free_shipping_threshold %}
+  <div id="shipping-bar-progress">
+    <p>
+      You are <strong>{{ amount_remaining | money }}</strong> away from unlocking free shipping!
+    </p>
+  </div>
+{% else %}
+  {% assign progress_percentage = 100 %}
+  <div id="shipping-bar-progress">
+    <p><strong> Congratulations! You’ve unlocked free shipping! </strong></p>
+  </div>
+{% endif %}
+
+<div class="progress-bar-container">
+  <div
+    class="progress-bar-fill"
+    style="width: {{ progress_percentage }}%;{% if progress_percentage == 100 %} background-color: lightgreen {% endif %}"
+  >
+    &nbsp;
+  </div>
+</div>
+
+<style>
+  #shipping-bar-progress {
+    /* text-align: center; */
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  #shipping-bar-progress p {
+    margin: 10px 0;
+  }
+  .progress-bar-container {
+    position: relative;
+    background-color: #e0e0e0; /* Background color for the empty part of the bar */
+    height: 12px;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden; /* Ensures the fill doesn't go outside the rounded corners */
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .progress-bar-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #e4ae82; /* Fill color for the progress */
+    border-radius: 6px 0 0 6px; /* Rounds only the left side of the fill */
+    transition: width 0.3s ease; /* Smoothly animates the fill when cart updates */
+  }
+</style>

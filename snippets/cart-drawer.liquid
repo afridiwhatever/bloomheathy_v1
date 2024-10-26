@@ -74,6 +74,8 @@
           class=" is-empty"
         {% endif %}
       >
+        {%- render 'free-shipping-progress-bar' -%}
+
         <form
           action="{{ routes.cart_url }}"
           id="CartDrawer-Form"
