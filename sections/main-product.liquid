@@ -88,7 +88,7 @@
               {% render 'custom-product-rating', block: block %}
 
             {%- when 'information_tab' -%}
-              {%- render 'information-tab', block: block -%}
+              {%- render 'information-tab', block: block, product: product -%}
 
             {%- when 'text' -%}
               <p
@@ -797,22 +797,19 @@
       "name": "Information Tab",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "whats_included_content",
-          "label": "What's Included Content",
-          "default": "Whats included content goes here."
+          "label": "What's Included Content"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "supplies_needed_content",
-          "label": "Supplies Needed Content",
-          "default": "Supplies content goes here."
+          "label": "Supplies Needed Content"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "shipping_returns_content",
-          "label": "Shipping & Returns Content",
-          "default": "Shipping & Returns content goes here."
+          "label": "Shipping & Returns Content"
         }
       ]
     },
