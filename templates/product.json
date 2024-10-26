@@ -64,6 +64,9 @@
         "information_tab_q8VQKK": {
           "type": "information_tab",
           "settings": {
+            "whats_included_content": "{{ product.metafields.custom.whats_included | metafield_tag }}",
+            "supplies_needed_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}",
+            "shipping_returns_content": "{{ product.metafields.custom.shipping_and_returns | metafield_tag }}"
           }
         }
       },
