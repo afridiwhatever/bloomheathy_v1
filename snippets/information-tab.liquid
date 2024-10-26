@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
   }
 
   body {
@@ -78,28 +77,16 @@
 
 <div {{ block.shopify_attributes }} class="tabs-container">
   <ul class="tabs">
-    {% comment %} <li class="tab-link active" data-tab="description">Description</li> {% endcomment %}
-    <li class="tab-link active" data-tab="features">Whats Included</li>
-    <li class="tab-link" data-tab="specs">Supplies Needed</li>
+    <li class="tab-link active" data-tab="whats-included">Whats Included</li>
+    <li class="tab-link" data-tab="supplies">Supplies Needed</li>
     <li class="tab-link" data-tab="shipping-returns">Shipping & Returns</li>
   </ul>
 
-  {% comment %}
-    <div id="description" class="tab-content active">
-      <p>
-        The ANDI Backpack is designed to solve the typical backpack challenges: easy access to your necessities and a look
-        sophisticated enough to keep up with your work style. It also boasts interior and exterior organization, a trolley
-        strap (because you’ve got places to go!), separate and padded laptop compartment, expandable design and a sleek
-        detachable wristlet.
-      </p>
-    </div>
-  {% endcomment %}
-
-  <div id="features" class="tab-content active">
+  <div id="whats-included" class="tab-content active">
     <p>Whats included content goes here.</p>
   </div>
 
-  <div id="specs" class="tab-content">
+  <div id="supplies" class="tab-content">
     <p>Supplies content goes here.</p>
   </div>
 
