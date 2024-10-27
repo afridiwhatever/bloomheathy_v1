@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Up to 60% off",
+            "text": "Enjoy 20% Sitewide Discount. Apply Code \"OFF20\" to Avail!",
             "link": "shopify://collections"
           }
         }
@@ -25,7 +25,6 @@
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "accent-2",
         "show_line_separator": true,
@@ -53,35 +52,10 @@
         "padding_top": 24,
         "padding_bottom": 20
       }
-    },
-    "announcement_bar_CmQiK4": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_YeGYqG": {
-          "type": "announcement",
-          "settings": {
-            "text": "Enjoy 20% Sitewide Discount. Apply Code \"OFF20\" to Avail!",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_YeGYqG"
-      ],
-      "settings": {
-        "color_scheme": "accent-1",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "announcement_bar_CmQiK4"
+    "header"
   ]
 }
