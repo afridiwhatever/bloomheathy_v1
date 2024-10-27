@@ -2,48 +2,55 @@
 
 {% assign cart_total = cart.total_price %}
 
-{% if cart_total < free_shipping_threshold %}
-  {% assign amount_remaining = free_shipping_threshold | minus: cart_total %}
-  {% assign progress_percentage = cart_total | times: 100 | divided_by: free_shipping_threshold %}
-  <div id="shipping-bar-progress">
-    <p>
-      You are <strong>{{ amount_remaining | money }}</strong> away from unlocking free shipping!
-    </p>
-  </div>
-{% else %}
-  {% assign progress_percentage = 100 %}
-  <div id="shipping-bar-progress">
-    <p><strong> Congratulations! You’ve unlocked free shipping! </strong></p>
-  </div>
-{% endif %}
+<div class="shipping-progress-bar-container">
+  {% if cart_total < free_shipping_threshold %}
+    {% assign amount_remaining = free_shipping_threshold | minus: cart_total %}
+    {% assign progress_percentage = cart_total | times: 100 | divided_by: free_shipping_threshold %}
+    <div id="shipping-bar-text">
+      <p>
+        You are <strong>{{ amount_remaining | money }}</strong> away from unlocking free shipping!
+      </p>
+    </div>
+  {% else %}
+    {% assign progress_percentage = 100 %}
+    <div id="shipping-bar-text">
+      <p><strong> Congratulations! You’ve unlocked free shipping! </strong></p>
+    </div>
+  {% endif %}
 
-<div class="progress-bar-container">
-  <div
-    class="progress-bar-fill"
-    style="width: {{ progress_percentage }}%;{% if progress_percentage == 100 %} background-color: lightgreen {% endif %}"
-  >
-    &nbsp;
+  <div class="progress-bar-container">
+    <div
+      class="progress-bar-fill"
+      style="width: {{ progress_percentage }}%;{% if progress_percentage == 100 %} background-color: lightgreen {% endif %}"
+    >
+      &nbsp;
+    </div>
   </div>
 </div>
-
 <style>
-  #shipping-bar-progress {
-    /* text-align: center; */
+  .shipping-progress-bar-container {
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 30px;
+    background-color: #eee9e9;
+    box-shadow: inset;
+    padding-bottom: 1em;
+  }
+
+  #shipping-bar-text {
+    text-align: center;
     font-size: 12px;
     margin-bottom: 10px;
   }
-  #shipping-bar-progress p {
-    margin: 10px 0;
-  }
+
   .progress-bar-container {
     position: relative;
-    background-color: #e0e0e0; /* Background color for the empty part of the bar */
+    background-color: black; /* Background color for the empty part of the bar */
     height: 12px;
     width: 100%;
     border-radius: 6px;
     overflow: hidden; /* Ensures the fill doesn't go outside the rounded corners */
     margin-top: 10px;
-    margin-bottom: 20px;
   }
   .progress-bar-fill {
     position: absolute;

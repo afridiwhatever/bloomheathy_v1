@@ -1,15 +1,4 @@
 {% style %}
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
-
   .tabs-container {
     width: 100%;
     max-width: 600px;
@@ -25,14 +14,13 @@
   }
 
   .tabs .tab-link {
-    flex-grow: 1; /* Equal width for each tab */
+    flex-grow: 1;
     flex-shrink: 1;
-    text-align: center; /* Center text in each tab */
+    text-align: center;
     padding-block: 10px;
     cursor: pointer;
     border-bottom: 2px solid transparent;
     transition: all 0.3s ease;
-    /* white-space: nowrap;  */
   }
 
   .tabs .tab-link.active {
@@ -53,7 +41,6 @@
     line-height: 1.6;
   }
 
-  /* Mobile-first design */
   @media screen and (max-width: 768px) {
     .tabs-container {
       width: 100%;
@@ -61,17 +48,17 @@
 
     .tabs {
       flex-direction: row;
-      overflow-x: auto; /* Horizontal scroll for smaller screens */
+      overflow-x: auto;
     }
 
     .tabs .tab-link {
       flex-grow: 1;
-      padding: 10px 5px; /* Reduce padding on smaller screens */
-      font-size: 14px; /* Smaller font size on mobile */
+      padding: 10px 5px;
+      font-size: 14px;
     }
 
     .tab-content {
-      padding: 10px 0; /* Adjust padding for smaller screens */
+      padding: 10px 0;
     }
   }
 {% endstyle %}
