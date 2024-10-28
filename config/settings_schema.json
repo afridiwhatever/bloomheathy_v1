@@ -4,8 +4,8 @@
     "theme_name": "Dawn",
     "theme_version": "11.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
-    "theme_support_url": "https:\/\/support.shopify.com\/"
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://support.shopify.com/"
   },
   {
     "name": "t:settings_schema.logo.name",
@@ -1435,6 +1435,12 @@
         ],
         "default": "notification",
         "label": "t:settings_schema.cart.settings.cart_type.label"
+      },
+      {
+        "type": "text",
+        "id": "free_shipping_threshold",
+        "label": "Free Shipping Order Value?",
+        "info": "Enter the minimum cart value to be eligible for Free Shipping. Leave empty if you don't want the progress bar to show up"
       },
       {
         "type": "checkbox",
