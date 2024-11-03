@@ -60,7 +60,7 @@
             "text": "<p>No matter if you are a beginner or an expert baker, eating Gluten free, Paleo or Keto... <strong>we got you covered!<\/strong><br\/><br\/>With our best sellers cookbooks and baking kits - it's never been easier to bake incredible loafs of bread.<\/p>",
             "button_label": "Shop now",
             "button_link": "shopify:\/\/collections\/sourdough-kits",
-            "cpk": "#e4ae82"
+            "cpk": "#94c09d"
           }
         },
         "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-2": {
@@ -279,6 +279,7 @@
             "title": "Follow Us on Instagram",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
             "html_area": ""
           }
         }

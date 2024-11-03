@@ -527,6 +527,17 @@
             </button>
           </noscript>
 
+          <a
+            href="{{routes.cart_url}}"
+            class="cart__checkout-button button"
+            style="background:#E4AE82 "
+            {% if cart == empty %}
+              disabled
+            {% endif %}
+          >
+            Go to Cart
+          </a>
+
           <button
             type="submit"
             id="CartDrawer-Checkout"
