@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/BH_logo.png",
+    "logo": "shopify://shop_images/BH_logo.png",
     "logo_width": 90,
-    "favicon": "shopify:\/\/shop_images\/BH_logo.png",
+    "favicon": "shopify://shop_images/BH_logo.png",
     "type_header_font": "poppins_n6",
     "heading_scale": 100,
     "type_body_font": "poppins_n4",
@@ -108,11 +108,11 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=100084287383303",
-    "social_instagram_link": "https:\/\/www.instagram.com\/bloomhealthy.co\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@Bloomhealthy",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=100084287383303",
+    "social_instagram_link": "https://www.instagram.com/bloomhealthy.co/",
+    "social_youtube_link": "https://www.youtube.com/@Bloomhealthy",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
@@ -143,35 +143,28 @@
       },
       "custom-footer": {
         "type": "custom-footer",
-        "custom_css": [
-
-        ],
-        "settings": {
-        }
+        "custom_css": [],
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "3667842014806057753": {
-        "type": "shopify:\/\/apps\/one-click-upsell\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
         "settings": {
           "allowed_templates": ""
         }
       },
       "pagefly-page-builder": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1710008633607995074": {
-        "type": "shopify:\/\/apps\/tydal-reviews\/blocks\/app-embed\/5f785e18-66cc-4519-8181-565d1cce1705",
+        "type": "shopify://apps/tydal-reviews/blocks/app-embed/5f785e18-66cc-4519-8181-565d1cce1705",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -410,7 +403,7 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
@@ -446,8 +439,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }

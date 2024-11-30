@@ -11,26 +11,22 @@
   "sections": {
     "zp-product-header-content": {
       "type": "product-header-content-zipifypages",
-      "settings": {
-      }
+      "settings": {}
     },
     "main": {
       "type": "main-product",
       "blocks": {
         "custom_product_rating_zphiib": {
           "type": "custom_product_rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -40,8 +36,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -58,15 +53,17 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "information_tab_q8VQKK": {
           "type": "information_tab",
           "settings": {
-            "whats_included_content": "{{ product.metafields.custom.whats_included | metafield_tag }}",
-            "supplies_needed_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}",
-            "shipping_returns_content": "{{ product.metafields.custom.shipping_and_returns | metafield_tag }}"
+            "tab_1_header": "What's Inside",
+            "whats_included_content": "<p>{{ product.metafields.custom.whats_included | metafield_tag }}</p>",
+            "tab_2_header": "What You'll Need",
+            "supplies_needed_content": "<p>{{ product.metafields.custom.supplies_needed | metafield_tag }}</p>",
+            "tab_3_header": "Free Gifts",
+            "shipping_returns_content": "<p>{{ product.metafields.custom.shipping_and_returns | metafield_tag }}</p>"
           }
         }
       },
@@ -116,8 +113,7 @@
     },
     "zp-product-footer-content": {
       "type": "product-footer-content-zipifypages",
-      "settings": {
-      }
+      "settings": {}
     },
     "1728559031628e843a": {
       "type": "apps",
