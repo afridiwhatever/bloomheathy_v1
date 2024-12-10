@@ -66,7 +66,6 @@
 <div {{ block.shopify_attributes }} class="tabs-container">
   <ul class="tabs">
     <li class="tab-link active" data-tab="whats-included">{{ block.settings.tab_1_header }}</li>
-
     <li class="tab-link" data-tab="supplies">{{ block.settings.tab_2_header }}</li>
     <li class="tab-link" data-tab="shipping-returns">{{ block.settings.tab_3_header }}</li>
   </ul>
@@ -89,18 +88,40 @@
     const tabLinks = document.querySelectorAll('.tab-link');
     const tabContents = document.querySelectorAll('.tab-content');
 
+    // Remove tabs and contents with empty headers
     tabLinks.forEach(function (tabLink) {
+      const tabHeader = tabLink.textContent.trim();
+      if (!tabHeader) {
+        const target = tabLink.getAttribute('data-tab');
+        tabLink.remove();
+        document.getElementById(target)?.remove();
+      }
+    });
+
+    // Update tabLinks and tabContents after potential removals
+    const updatedTabLinks = document.querySelectorAll('.tab-link');
+    const updatedTabContents = document.querySelectorAll('.tab-content');
+
+    // Set up click events for remaining tabs
+    updatedTabLinks.forEach(function (tabLink) {
       tabLink.addEventListener('click', function () {
         const target = this.getAttribute('data-tab');
 
         // Remove active class from all tabs
-        tabLinks.forEach((link) => link.classList.remove('active'));
-        tabContents.forEach((content) => content.classList.remove('active'));
+        updatedTabLinks.forEach((link) => link.classList.remove('active'));
+        updatedTabContents.forEach((content) => content.classList.remove('active'));
 
         // Add active class to clicked tab and corresponding content
         this.classList.add('active');
         document.getElementById(target).classList.add('active');
       });
     });
+
+    // If no tabs are active initially, activate the first visible tab
+    if (!document.querySelector('.tab-link.active') && updatedTabLinks.length > 0) {
+      updatedTabLinks[0].classList.add('active');
+      const firstTabId = updatedTabLinks[0].getAttribute('data-tab');
+      document.getElementById(firstTabId)?.classList.add('active');
+    }
   });
 </script>
