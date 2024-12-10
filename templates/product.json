@@ -58,11 +58,11 @@
         "information_tab_q8VQKK": {
           "type": "information_tab",
           "settings": {
-            "tab_1_header": "What's Inside",
+            "tab_1_header": "",
             "whats_included_content": "<p>{{ product.metafields.custom.whats_included | metafield_tag }}</p>",
             "tab_2_header": "What You'll Need",
             "supplies_needed_content": "<p>{{ product.metafields.custom.supplies_needed | metafield_tag }}</p>",
-            "tab_3_header": "",
+            "tab_3_header": "Free Gifts",
             "shipping_returns_content": "<p>{{ product.metafields.custom.shipping_and_returns | metafield_tag }}</p>",
             "tab_4_header": "",
             "tab_4_content": "<p>This is blah content</p>"
