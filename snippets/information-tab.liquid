@@ -73,9 +73,11 @@
     <li class="tab-link" data-tab="shipping-returns">{{ block.settings.tab_3_header }}</li>
   </ul>
 
-  <div id="whats-included" class="accordion__content rte tab-content active">
-    <p>{{ block.settings.whats_included_content }}</p>
-  </div>
+  {% if block.settings.tab_1_header %}
+    <div id="whats-included" class="accordion__content rte tab-content active">
+      <p>{{ block.settings.whats_included_content }}</p>
+    </div>
+  {% endif %}
 
   <div id="supplies" class="accordion__content rte tab-content">
     <p>{{ block.settings.supplies_needed_content }}</p>
