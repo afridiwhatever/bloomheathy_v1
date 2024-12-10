@@ -64,7 +64,7 @@
             "supplies_needed_content": "<p>{{ product.metafields.custom.supplies_needed | metafield_tag }}</p>",
             "tab_3_header": "",
             "shipping_returns_content": "<p>{{ product.metafields.custom.shipping_and_returns | metafield_tag }}</p>",
-            "tab_4_header": "Blah",
+            "tab_4_header": "",
             "tab_4_content": "<p>This is blah content</p>"
           }
         }
