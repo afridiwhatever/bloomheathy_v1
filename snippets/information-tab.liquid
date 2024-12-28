@@ -65,22 +65,22 @@
 
 <div {{ block.shopify_attributes }} class="tabs-container">
   <ul class="tabs">
-    <li class="tab-link active" data-tab="tab-1">{{ block.settings.tab_1_header }}</li>
-    <li class="tab-link" data-tab="tab-2">{{ block.settings.tab_2_header }}</li>
-    <li class="tab-link" data-tab="tab-3">{{ block.settings.tab_3_header }}</li>
+    <li class="tab-link active" data-tab="whats-included">{{ block.settings.tab_1_header }}</li>
+    <li class="tab-link" data-tab="supplies">{{ block.settings.tab_2_header }}</li>
+    <li class="tab-link" data-tab="shipping-returns">{{ block.settings.tab_3_header }}</li>
     <li class="tab-link" data-tab="tab-4">{{ block.settings.tab_4_header }}</li>
   </ul>
 
-  <div id="tab-1" class="accordion__content rte tab-content active">
-    <p>{{ block.settings.tab_1_content }}</p>
+  <div id="whats-included" class="accordion__content rte tab-content active">
+    <p>{{ block.settings.whats_included_content }}</p>
   </div>
 
-  <div id="tab-2" class="accordion__content rte tab-content">
-    <p>{{ block.settings.tab_2_content }}</p>
+  <div id="supplies" class="accordion__content rte tab-content">
+    <p>{{ block.settings.supplies_needed_content }}</p>
   </div>
 
-  <div id="tab-3" class="accordion__content rte tab-content">
-    <p>{{ block.settings.tab_3_content }}</p>
+  <div id="shipping-returns" class="accordion__content rte tab-content">
+    <p>{{ block.settings.shipping_returns_content }}</p>
   </div>
 
   <div id="tab-4" class="accordion__content rte tab-content">
