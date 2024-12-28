@@ -59,13 +59,13 @@
           "type": "information_tab",
           "settings": {
             "tab_1_header": "What's Inside",
-            "whats_included_content": "{{ product.metafields.custom.whats_included | metafield_tag }}",
+            "whats_included_content": "{{ product.metafields.custom.whats_included | metafield_tag }}<p>hhey</p>",
             "tab_2_header": "What You'll Need",
-            "supplies_needed_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}",
+            "supplies_needed_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}<p>hello</p>",
             "tab_3_header": "Free Gifts",
             "shipping_returns_content": "{{ product.metafields.custom.shipping_and_returns | metafield_tag }}",
-            "tab_4_header": "",
-            "tab_4_content": ""
+            "tab_4_header": "Lo",
+            "tab_4_content": "<p>sdfasf</p>"
           }
         }
       },
