@@ -63,7 +63,7 @@
             "tab_2_header": "What You'll Need",
             "tab_2_content": "",
             "tab_3_header": "Additional Info",
-            "tab_3_content": "<p>{{ product.metafields.custom.recipe_list | metafield_tag }}</p>",
+            "tab_3_content": "{{ product.metafields.custom.additional_info | metafield_tag }}",
             "tab_4_header": "",
             "tab_4_content": ""
           }
