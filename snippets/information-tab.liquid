@@ -71,6 +71,12 @@
     <li class="tab-link" data-tab="tab-4">{{ block.settings.tab_4_header }}</li>
   </ul>
 
+  {% if block.settings.whats_included_content %}
+    <div id="whats-included" class="accordion__content rte tab-content active">
+      <p>{{ block.settings.whats_included_content }}</p>
+    </div>
+  {% endif %}
+
   <div id="whats-included" class="accordion__content rte tab-content active">
     <p>{{ block.settings.whats_included_content }}</p>
   </div>
