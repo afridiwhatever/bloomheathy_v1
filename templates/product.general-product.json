@@ -59,11 +59,11 @@
           "type": "information_tab",
           "settings": {
             "tab_1_header": "What's Inside",
-            "whats_included_content": "{{ product.metafields.custom.whats_included | metafield_tag }}",
+            "tab_1_content": "",
             "tab_2_header": "What You'll Need",
-            "supplies_needed_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}",
+            "tab_2_content": "",
             "tab_3_header": "Additional Info",
-            "shipping_returns_content": "{{ product.metafields.custom.shipping_and_returns | metafield_tag }}",
+            "tab_3_content": "<p>{{ product.metafields.custom.recipe_list | metafield_tag }}</p>",
             "tab_4_header": "",
             "tab_4_content": ""
           }
