@@ -61,9 +61,9 @@
             "tab_1_header": "What's Inside",
             "tab_1_content": "{{ product.metafields.custom.whats_included | metafield_tag }}<p>a</p>",
             "tab_2_header": "What You'll Need",
-            "tab_2_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}<p>a</p>",
+            "tab_2_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}<p>b</p>",
             "tab_3_header": "Free Gifts",
-            "tab_3_content": "{{ product.metafields.custom.shipping_and_returns | metafield_tag }}<p>a</p>",
+            "tab_3_content": "{{ product.metafields.custom.shipping_and_returns | metafield_tag }}<p>asa</p>",
             "tab_4_header": "",
             "tab_4_content": ""
           }
