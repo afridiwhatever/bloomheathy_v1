@@ -97,13 +97,16 @@
     const tabLinks = document.querySelectorAll('.tab-link');
     const tabContents = document.querySelectorAll('.tab-content');
 
-    // Remove tabs and contents with empty headers
+    // Remove tabs and contents with empty headers or content
     tabLinks.forEach(function (tabLink) {
       const tabHeader = tabLink.textContent.trim();
-      if (!tabHeader) {
-        const target = tabLink.getAttribute('data-tab');
+      const target = tabLink.getAttribute('data-tab');
+      const tabContent = document.getElementById(target);
+
+      // Remove tab and content if the header is empty or content is missing/empty
+      if (!tabHeader || !tabContent || !tabContent.textContent.trim()) {
         tabLink.remove();
-        document.getElementById(target)?.remove();
+        tabContent?.remove();
       }
     });
 
