@@ -59,7 +59,7 @@
           "type": "information_tab",
           "settings": {
             "tab_1_header": "What's Inside",
-            "whats_included_content": "<p>Hello</p>",
+            "whats_included_content": "{{ product.metafields.custom.whats_included | metafield_tag }}",
             "tab_2_header": "What You'll Need",
             "supplies_needed_content": "{{ product.metafields.custom.supplies_needed | metafield_tag }}",
             "tab_3_header": "Free Gifts",
