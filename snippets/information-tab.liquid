@@ -65,20 +65,15 @@
 
 <div {{ block.shopify_attributes }} class="tabs-container">
   <ul class="tabs">
-    {% if block.settings.whats_included_content %}
-      <li class="tab-link active" data-tab="whats-included">{{ block.settings.tab_1_header }}</li>
-    {% endif %}
-
+    <li class="tab-link active" data-tab="whats-included">{{ block.settings.tab_1_header }}</li>
     <li class="tab-link" data-tab="supplies">{{ block.settings.tab_2_header }}</li>
     <li class="tab-link" data-tab="shipping-returns">{{ block.settings.tab_3_header }}</li>
     <li class="tab-link" data-tab="tab-4">{{ block.settings.tab_4_header }}</li>
   </ul>
 
-  {% if block.settings.whats_included_content %}
-    <div id="whats-included" class="accordion__content rte tab-content active">
-      <p>{{ block.settings.whats_included_content }}</p>
-    </div>
-  {% endif %}
+  <div id="whats-included" class="accordion__content rte tab-content active">
+    <p>{{ block.settings.whats_included_content }}</p>
+  </div>
 
   <div id="whats-included" class="accordion__content rte tab-content active">
     <p>{{ block.settings.whats_included_content }}</p>
