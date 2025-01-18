@@ -35,7 +35,8 @@
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {%- render 'header-scripts.zipifypages', apprxhbl: zp_apprxhbl, renderctx: 'thm' -%}{{ content_for_header }}
+    {%- render 'header-scripts.zipifypages', apprxhbl: zp_apprxhbl, renderctx: 'thm' -%}
+    {{ content_for_header }}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -267,8 +268,9 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  {% render 'gp-head' %}
-{% include 'pagefly-app-header' %}</head>
+    {% render 'gp-head' %}
+    {% include 'pagefly-app-header' %}
+  </head>
 
   <body
     class="
@@ -342,5 +344,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  {%- render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: oneclickupsellapp -%}</body>
+    {%- render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: oneclickupsellapp -%}
+  </body>
 </html>

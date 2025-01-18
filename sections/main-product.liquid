@@ -74,6 +74,7 @@
         data-url="{{ product.url }}"
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
+        <h2>...</h2>
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
         {%- for block in section.blocks -%}
@@ -796,7 +797,7 @@
       "type": "information_tab",
       "name": "Information Tab",
       "settings": [
-       {
+        {
           "type": "text",
           "id": "tab_1_header",
           "label": "Tab 1 Header",
@@ -828,13 +829,12 @@
           "type": "richtext",
           "id": "tab_3_content",
           "label": "Tab 3 Content"
-
         },
         {
           "type": "text",
           "id": "tab_4_header",
           "label": "Tab 4 Header",
-               "info": "Leave empty if you don't want this tab to appear"
+          "info": "Leave empty if you don't want this tab to appear"
         },
         {
           "type": "richtext",
