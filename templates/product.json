@@ -128,6 +128,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_4kmabJ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -136,6 +145,7 @@
     "related-products",
     "zp-product-footer-content",
     "1728559031628e843a",
-    "172855964550225548"
+    "172855964550225548",
+    "custom_liquid_4kmabJ"
   ]
 }
