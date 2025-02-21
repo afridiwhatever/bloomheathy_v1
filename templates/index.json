@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "#",
@@ -44,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/iStock-1225036926_4087130b-0227-45d8-a3ee-bd7642b94e9a.jpg",
+        "image_2": "shopify://shop_images/iStock-1225036926_4087130b-0227-45d8-a3ee-bd7642b94e9a.jpg",
         "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -63,36 +63,36 @@
         "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_1.png",
+            "image": "shopify://shop_images/Image_1.png",
             "caption": "",
             "heading": "Bake The Perfect Sourdough Bread",
-            "text": "<p>No matter if you are a beginner or an expert baker, eating Gluten free, Paleo or Keto... <strong>we got you covered!<\/strong><br\/><br\/>With our best sellers cookbooks and baking kits - it's never been easier to bake incredible loafs of bread.<\/p>",
+            "text": "<p>No matter if you are a beginner or an expert baker, eating Gluten free, Paleo or Keto... <strong>we got you covered!</strong><br/><br/>With our best sellers cookbooks and baking kits - it's never been easier to bake incredible loafs of bread.</p>",
             "button_label": "Shop now",
-            "button_link": "shopify:\/\/collections\/sourdough-kits",
-            "cpk": "#94c09d"
+            "button_link": "shopify://collections/sourdough-kits",
+            "cpk": "#dbac81"
           }
         },
         "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-figen-kokol-11358793_1_copy_f285e0bc-a692-485c-9146-b0b8c9a3a130.png",
+            "image": "shopify://shop_images/pexels-figen-kokol-11358793_1_copy_f285e0bc-a692-485c-9146-b0b8c9a3a130.png",
             "caption": "",
-            "heading": "Make Delicious<strong> <\/strong>Yogurt At Home",
-            "text": "<p>Get The Ultimate Guide To Making Probiotic Yogurt, with step by step instructions, videos and <strong>30+<\/strong> <strong>Yogurts<\/strong> <strong>Recipes<\/strong>– for every diet and style you like.<br\/><br\/>With Our Yogurt making kits, you'll be able to get incredible delicious results every time!<\/p>",
-            "button_label": "Shop now",
-            "button_link": "shopify:\/\/products\/yogurt-kit",
+            "heading": "Make Delicious<strong> </strong>Yogurt At Home",
+            "text": "<p>Get The Ultimate Guide To Making Probiotic Yogurt, with step by step instructions, videos and <strong>30+</strong> <strong>Yogurts</strong> <strong>Recipes</strong>– for every diet and style you like.<br/><br/>With Our Yogurt making kits, you'll be able to get incredible delicious results every time!</p>",
+            "button_label": "#F35533",
+            "button_link": "shopify://products/yogurt-kit",
             "cpk": "#dbc282"
           }
         },
         "template--21392485974303__e2a7e4ba-b514-4919-9a2d-cc0ef52159cd-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brooke-lark-_W4XNzYTmJo-unsplash_copy.png",
+            "image": "shopify://shop_images/brooke-lark-_W4XNzYTmJo-unsplash_copy.png",
             "caption": "",
             "heading": "Brew Kombucha, Kefir & Probiotic drinks",
-            "text": "<p>Elevate Your Wellness Journey with Our Cookbooks & Quick Starter Kits – Unleash a Symphony of Flavor with DIY Kombucha and Kefir Brewing. <br\/><br\/>Craft Your Own Probiotic Powerhouses and Discover a World of Gut-Healthy Delights! 🌿✨<\/p>",
+            "text": "<p>Elevate Your Wellness Journey with Our Cookbooks & Quick Starter Kits – Unleash a Symphony of Flavor with DIY Kombucha and Kefir Brewing. <br/><br/>Craft Your Own Probiotic Powerhouses and Discover a World of Gut-Healthy Delights! 🌿✨</p>",
             "button_label": "Shop now",
-            "button_link": "shopify:\/\/products\/kombucha-starter-kit",
+            "button_link": "shopify://products/kombucha-starter-kit",
             "cpk": "#db8282"
           }
         }
@@ -152,10 +152,10 @@
         "template--21392485974303__32648cc4-8f31-4523-ad2e-8a9db702f55b-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Depositphotos_369490932_L.jpg",
+            "image": "shopify://shop_images/Depositphotos_369490932_L.jpg",
             "heading": "\"I had come across bloom healthy cooking on instagram and I was so happy I could make alternatives and still enjoy it, it had so many different courses and I just wanted to know it all, it has helped me so much.\"",
             "heading_size": "h2",
-            "subheading": "<strong>– Anna Bradley<\/strong>",
+            "subheading": "<strong>– Anna Bradley</strong>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -170,10 +170,10 @@
         "9f3b5e22-a2f4-497d-822f-b8c9994670df": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/11-25.webp",
+            "image": "shopify://shop_images/11-25.webp",
             "heading": "“Honestly, this guide is the best! My sister and I have been experimenting with every recipe, and each pizza feels like a masterpiece. Kudos to the creators!”",
             "heading_size": "h2",
-            "subheading": "<strong>– Emily Rummings<\/strong>",
+            "subheading": "<strong>– Emily Rummings</strong>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -188,10 +188,10 @@
         "15d62f2b-d6f2-4dcd-a901-4cbbcd892a9d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_16.jpg",
+            "image": "shopify://shop_images/Rectangle_16.jpg",
             "heading": "“Huge thanks!\nAfter I started with your fermentation-focused eating plan, everything fell into place. My energy levels have soared, and my sleepless nights are gone. I'm stress-free, happier, and lighter—both on the scale and in spirit. This has been a total game-changer for my life.”",
             "heading_size": "h2",
-            "subheading": "<strong>– Anna Bradley<\/strong>",
+            "subheading": "<strong>– Anna Bradley</strong>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -206,10 +206,10 @@
         "35a0faa5-0770-4081-b3b7-705ad4b51b7a": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Soft-Mozzarella-1-copy.jpg",
+            "image": "shopify://shop_images/Soft-Mozzarella-1-copy.jpg",
             "heading": "“Brilliant!! - These cheeses taste so realistic! My other half has been a vegan for over 20 years and when I gave him my first creation from this book he thought I had given him some dairy cheese accidentally!”",
             "heading_size": "h2",
-            "subheading": "<strong>– Lisa<\/strong>",
+            "subheading": "<strong>– Lisa</strong>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -224,10 +224,10 @@
         "3d6d70e9-05f4-40f1-8e24-270d09820305": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Depositphotos_11932441_XL.jpg",
+            "image": "shopify://shop_images/Depositphotos_11932441_XL.jpg",
             "heading": "\"This is so worth it. Perfect yogurt every time. I lead a busy life and thought I might not like having to go through the process of heating and cooling the milk, but it's quick and easy. And my children and husband love the results. Winner\"",
             "heading_size": "h2",
-            "subheading": "<strong>– Lara<\/strong>",
+            "subheading": "<strong>– Lara</strong>",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -283,12 +283,13 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_8c3yx3": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "Follow Us on Instagram",
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
