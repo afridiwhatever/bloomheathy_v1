@@ -38,6 +38,30 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "bl_external_links_fixed_link_button_bnjNfH": {
+          "type": "shopify://apps/bl-external-links/blocks/fixed_link_button/c949c405-b772-46d1-a5c3-815c59bb7a43",
+          "settings": {
+            "default_text": "Go to External Link",
+            "default_url": "",
+            "block_height": 45,
+            "button_width": 0,
+            "button_align": "center",
+            "text_font_family": "mono",
+            "text_font_size": 15,
+            "background_color_solid": "",
+            "background_color": "",
+            "text_color": "",
+            "border_color": "",
+            "border_width": -1,
+            "border_radius": -1,
+            "margin_top": 15,
+            "margin_bottom": 15,
+            "buttons_visibility": "hide_none",
+            "atc_selector": "",
+            "buy_selector": "",
+            "is_open_new_window": true
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -75,6 +99,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "bl_external_links_fixed_link_button_bnjNfH",
         "buy_buttons",
         "payment_icons_q8BLPA",
         "description",
