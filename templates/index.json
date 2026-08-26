@@ -263,6 +263,7 @@
     },
     "78246ebf-e0d7-4b7b-8b51-af06b4f52907": {
       "type": "customer-newsletter",
+      "disabled": true,
       "settings": {
         "heading": "",
         "vtb": "",
@@ -282,20 +283,15 @@
     "1706668443dc8b4412": {
       "type": "apps",
       "blocks": {
-        "instafeed_app_block_8c3yx3": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+        "klaviyo_email_marketing_sms_form_embed_block_ABkiQw": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "title": "Follow Us on Instagram",
-            "title_color": "",
-            "alignment": "center",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
+            "formId": "XVPMzu"
           }
         }
       },
       "block_order": [
-        "instafeed_app_block_8c3yx3"
+        "klaviyo_email_marketing_sms_form_embed_block_ABkiQw"
       ],
       "disabled": true,
       "settings": {
