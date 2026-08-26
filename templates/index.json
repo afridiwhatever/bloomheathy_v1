@@ -261,9 +261,8 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "78246ebf-e0d7-4b7b-8b51-af06b4f52907": {
-      "type": "customer-newsletter",
-      "disabled": true,
+    "d7888ff2-80d3-4b58-b210-2a1a129ef617": {
+      "type": "footer-above",
       "settings": {
         "heading": "",
         "vtb": "",
@@ -271,8 +270,9 @@
         "blogqq": ""
       }
     },
-    "d7888ff2-80d3-4b58-b210-2a1a129ef617": {
-      "type": "footer-above",
+    "78246ebf-e0d7-4b7b-8b51-af06b4f52907": {
+      "type": "customer-newsletter",
+      "disabled": true,
       "settings": {
         "heading": "",
         "vtb": "",
@@ -293,7 +293,6 @@
       "block_order": [
         "klaviyo_email_marketing_sms_form_embed_block_ABkiQw"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -304,8 +303,8 @@
     "e2a7e4ba-b514-4919-9a2d-cc0ef52159cd",
     "featured_collection",
     "32648cc4-8f31-4523-ad2e-8a9db702f55b",
-    "78246ebf-e0d7-4b7b-8b51-af06b4f52907",
     "d7888ff2-80d3-4b58-b210-2a1a129ef617",
+    "78246ebf-e0d7-4b7b-8b51-af06b4f52907",
     "1706668443dc8b4412"
   ]
 }
