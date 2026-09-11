@@ -156,11 +156,6 @@
           "allowed_templates": ""
         }
       },
-      "1710008633607995074": {
-        "type": "shopify://apps/tydal-reviews/blocks/app-embed/5f785e18-66cc-4519-8181-565d1cce1705",
-        "disabled": false,
-        "settings": {}
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
@@ -173,6 +168,11 @@
       },
       "6251270934270006384": {
         "type": "shopify://apps/stape-server-gtm/blocks/gtm/7e13c847-7971-409d-8fe0-29ec14d5f048",
+        "disabled": false,
+        "settings": {}
+      },
+      "2786716548061469553": {
+        "type": "shopify://apps/applovin/blocks/app-embed/baa0f014-62ea-462f-a8aa-a94befb1cbad",
         "disabled": false,
         "settings": {}
       }
